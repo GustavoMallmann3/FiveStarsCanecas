@@ -1,6 +1,6 @@
 <?php
 
-
+// puxando navbar com php 
 require_once "../src/views/header_nav.php";
 ?>
     
