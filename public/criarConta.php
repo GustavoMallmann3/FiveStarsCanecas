@@ -1,6 +1,34 @@
 <?php
 
+use Database\Database;
+
+if(isset($_POST['name'])) {
+    $nome = $_POST['name'];
+} else {
+    $nome = null;
+}
+if( isset($_POST['email'])) {
+    $email = $_POST['email'];
+} else {
+    $email = null;
+}
+if(isset($_POST['pass'])) {
+    $pass = $_POST['pass'];
+} else {
+    $pass = null;
+}
+
+require_once "../src/model/Database.php";
+$db = new Database();
+
+$criarConta = $db->insert(
+    "INSERT INTO usuarios ('$nome' '$email' '$senha') values ( 'name', email, pass);"
+);
+
+// var_dump($criarConta);
+
 require_once "../src/views/header_registro.php";
+
 ?>
 
     <div class="registro-center">
@@ -12,13 +40,9 @@ require_once "../src/views/header_registro.php";
                     <div class="col-12">
                         <input type="name" class="form-control" name="name" placeholder="Seu nome" required>
                         <br>
-                        <input type="surname" class="form-control" name="surname" placeholder="Seu Sobrenome" required>
-                        <br>
                         <input type="email" class="form-control email" name="email" placeholder="E-mail" required>
                         <br>
                         <input type="password" class="form-control email" name="pass" placeholder="Senha" required>
-                        <br>
-                        <input type="password" class="form-control email" name="pass" placeholder="Confirmar senha" required>
                         <br>
                     </div>
                 </div>

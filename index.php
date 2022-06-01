@@ -1,2 +1,2 @@
 <?php
-header("location: ../gustavoWeb2/public/loja.php");
+header("location: ../FiveStarsCanecas/public/loja.php");

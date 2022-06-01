@@ -9,6 +9,7 @@ body {
 
 .container {
     padding: 70px 0;
+  
 }
 
 p, li {
@@ -27,7 +28,8 @@ header, .navbar {
 }
 
 #logo {
-    width: 75px;
+    width: 100%;
+
 }
 
 .navbar-brand {
@@ -50,4 +52,11 @@ header, .navbar {
 .d-grid {
     background-color: red;
     
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin-top: 5%;
 }

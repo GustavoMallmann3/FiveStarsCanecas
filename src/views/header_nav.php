@@ -12,6 +12,7 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/styleProduto.css">
     <!-- Scripts -->
 
     <script
@@ -27,12 +28,13 @@
     <!-- parallax -->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 </head>
-<body>
-    <header>
-        <div class="container" id="nav-container">
-            <nav class="navbar navbar-expand-lg fixed-top">
+
+    <body class="container">
+        
+        <div class="row" >
+            <nav class="navbar navbar-expand-lg fixed-top" >
                 <a href="#" class="navbar-brand">
-                    <img id="logo" src="img/Logo.png" alt="logo de caneca"> Five Stars Canecas
+                    <img id="logo" src="assets/img/logo.png" alt="logo de caneca"> Five Stars Canecas
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" arial-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -54,10 +56,19 @@
                             <li><a class="dropdown-item" href="login.php" style="color: black;">Fazer Login</a></li>
                             </ul>
                         </li>
-                        <i class="bi bi-cart4"></i>
-                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            
+                            <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../public/lista.php">
+                                Listar pedidos</a>
+                            </li>
+                            
+                        </ul>
                     </div>
                 </div>
             </nav>
+           
         </div>
-    </header>
+    </body>
+
+</html>

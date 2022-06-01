@@ -1,0 +1,64 @@
+.produto {
+    margin-top: 15px;
+    padding: 15px;
+    transition: 0.8s;
+
+    min-height: 300px;
+}
+
+.produto:hover {
+    background-color: #5A6978;
+  
+    transition: 0.5s;
+}
+
+.foto {
+    width: 80%;
+    overflow: hidden;
+}
+
+.img-produto {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.img-produto:hover {
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+
+.nome-produto {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 5px 0;
+}
+
+.descricao-produto {
+    height: 70px;
+    text-align: left;
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+.preco-produto {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.btn {
+    width: 100%;
+    font-size: 1.3rem;
+}
+
+#logo {
+    width: 50px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    margin-top: 5%;
+}

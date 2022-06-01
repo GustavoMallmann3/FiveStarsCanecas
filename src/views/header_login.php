@@ -12,7 +12,11 @@
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styleLogin.css">
+    <!-- Produto -->
+    <link rel="stylesheet" href="assets/css/styleProduto.css">
+    <link rel="stylesheet" href="assets/css/styleFooter.css">
     <!-- Scripts -->
+ 
 
     <script
     src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -26,5 +30,6 @@
     <script src="js/progressbar.mim.js"></script>
     <!-- parallax -->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+     
 </head>
 <body>
